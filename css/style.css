@@ -57,6 +57,95 @@
 .hero-svg {
   fill: #111111;
 }
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 32px;
+}
+.hero-title {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.6px;
+  padding-top: 395px;
+  margin-bottom: 0px;
+}
+.hero-pharagraph {
+  margin: 0px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: -0.36px;
+}
+.scroll-down-div {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+}
+.hero-image {
+  background-image: linear-gradient(
+      rgba(17, 17, 17, 0) 0%,
+      rgba(17, 17, 17, 0.4) 100%
+    ),
+    url(../images/chocolate-covered.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: var(--white-color);
+  flex-grow: 1;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 14px;
+  padding-bottom: 28px;
+  min-height: 621px;
+  border-radius: 50%;
+}
+.buy-now-button {
+  background-color: #fd9222;
+  color: #ffffff;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+  border-radius: 40px;
+  padding: 12px 28px;
+  align-content: center;
+  font-family: Montserrat;
+}
+.hero-second-button {
+  background-color: transparent;
+  color: #ffffff;
+  letter-spacing: -0.6px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: 1px solid #fff;
+  cursor: pointer;
+  border-radius: 40px;
+  padding: 12px 28px;
+  align-content: center;
+  font-family: Montserrat;
+}
+.div-button {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 22px;
+  gap: 14px;
+}
+
 .footer {
   background: #1e1823;
   padding-left: 20px;
