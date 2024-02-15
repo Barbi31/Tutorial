@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="./css/style.css" />
 
     <title>Document</title>
@@ -11,22 +12,21 @@
     <header>
       <div class="hero-div">
         <nav class="hero-nav">
-          
           <a class="link logo logo-first" href=""
-            >SIMPLY</a
+            >SIMPLY <span class="link logo logo-second">CHOCOLATE</span></a
           >
-          <a class="link logo logo-second" href=""
-          >CHOCOLATE</span></a
-        >
+
           <a class="">
             <svg width="21" height="21">
               <use href="/images/icon.svg#icon-chocolate"></use>
             </svg>
           </a>
-        
-          <ul class="list hero-lists ">
+
+          <ul class="list hero-lists">
             <li>
-              <a class="link hero-list-first " href="">Home</a>
+              <a class="link hero-list-nav hero-list-first" href="./index.html"
+                >Home</a
+              >
             </li>
             <li>
               <a class="link hero-list-first" href="">How it's made?</a>
@@ -77,59 +77,82 @@
             </a>
           </li>
         </ul>
-        
       </div>
     </header>
     <main>
-     <section class="hero-image hero-section">
-      <h1 class="hero-title">Treat yourself or a loved one 
-        to our finest ingredients for a moment of pure delight!</h1>
-        <div>
-        <button class="buy-now-button" type="button">Buy now</button>
-        <button class="hero-second-button" type="button">How it's made</button>
-      </div>
-      <div class="scroll-down-div">
-        <p class="hero-pharagraph">scroll down</p>
-        <a href="">
-          <svg>
-            
-          </svg>
-        </a>
-      </div>
-
-     </section>
+      <section class="hero-container hero-section">
+        <div class="hero-image">
+          <h1 class="hero-title">
+            Treat yourself or a loved one to our finest ingredients for a moment
+            of pure delight!
+          </h1>
+          <div class="div-button">
+            <button class="buy-now-button" type="button">Buy now</button>
+            <button class="hero-second-button" type="button">
+              How it's made
+            </button>
+          </div>
+          <div class="scroll-down-div">
+            <a class="hero-pharagraph link" href=""
+              >scroll down<span>
+                <svg
+                  class="scroll-down-icon icon-radius"
+                  width="16"
+                  height="16"
+                >
+                  <use
+                    href="/images/icon.svg#icon-fi-rr-angle-small-left"
+                  ></use></svg
+              ></span>
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <div class="footer-d">
-        <h2 class="footer-title">Chocolate <span style="color:#fff">a delicious cure for a bad day</span></h2>
+        <h2 class="footer-title">
+          Chocolate
+          <span style="color: #fff">a delicious cure for a bad day</span>
+        </h2>
         <div class="footer-div">
-        <address>
-          <ul class="list address-ul">
-            <p class="footer-pharagraph">Contact us</p>
+          <address>
+            <ul class="list address-ul">
+              <p class="footer-pharagraph">Contact us</p>
+              <li>
+                <a
+                  class="link footer-address"
+                  href="mailto:simplychoc@gmail.com"
+                  >simplychoc@gmail.com</a
+                >
+              </li>
+              <li>
+                <a class="link footer-address" href="tel:+380 (68) 443-94-26"
+                  >+380 (68) 443-94-26</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="list footer-social-media">
             <li>
-              <a class="link footer-address" href="mailto:simplychoc@gmail.com"
-                >simplychoc@gmail.com</a
-              >
+              <a href="">
+                <svg class="footer-svg" width="22" height="22">
+                  <use href="/images/icon.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
             <li>
-              <a class="link footer-address" href="tel:+380 (68) 443-94-26">+380 (68) 443-94-26</a>
+              <a
+                ><a href="">
+                  <svg class="footer-svg" width="22" height="22">
+                    <use href="/images/icon.svg#icon-twitter"></use>
+                  </svg> </a
+              ></a>
             </li>
           </ul>
-        </address>
-        <ul class="list footer-social-media">
-          <li><a href="">
-            <svg class="footer-svg" width="22" height="22">
-              <use href="/images/icon.svg#icon-instagram"></use>
-            </svg>
-          </a></li>
-          <li><a><a href="">
-            <svg class="footer-svg" width="22" height="22">
-              <use href="/images/icon.svg#icon-twitter"></use>
-            </svg>
-          </a></a></li>
-        </ul>
+        </div>
       </div>
-      </div>
+      <div class="vector-svg"></div>
       <nav class="footer-nav">
         <ul class="list footer-ul">
           <li>
@@ -149,7 +172,6 @@
           </li>
         </ul>
       </nav>
-     
     </footer>
     <div class="menu-container js-menu-container" id="mobile-menu">
       <button class="menu-toggle js-close-menu">
@@ -170,35 +192,40 @@
       <nav class="mobile-nav">
         <ul class="list nav-ul">
           <li>
-            <a class="link mobile-nav-ul " href="">Home</a>
+            <a class="link mobile-nav-ul" href="./index.html">Home</a>
           </li>
           <li>
             <a class="link mobile-nav-ul" href="">How it's made?</a>
           </li>
           <li>
-            <a class="link mobile-nav-ul " href="">Our products</a>
+            <a class="link mobile-nav-ul" href="">Our products</a>
           </li>
           <li>
             <a class="link mobile-nav-ul" href="">Top sellers</a>
           </li>
           <li>
-            <a class="link mobile-nav-ul " href="">Chocolate is loved</a>
+            <a class="link mobile-nav-ul" href="">Chocolate is loved</a>
           </li>
         </ul>
       </nav>
       <ul class="list menu-svg">
-        <li><a href="">
-          <svg class="footer-svg" width="22" height="22">
-            <use href="/images/icon.svg#icon-instagram"></use>
-          </svg>
-        </a></li>
-        <li><a><a href="">
-          <svg class="footer-svg" width="22" height="22">
-            <use href="/images/icon.svg#icon-twitter"></use>
-          </svg>
-        </a></a></li>
+        <li>
+          <a href="">
+            <svg class="footer-svg" width="22" height="22">
+              <use href="/images/icon.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a
+            ><a href="">
+              <svg class="footer-svg" width="22" height="22">
+                <use href="/images/icon.svg#icon-twitter"></use>
+              </svg> </a
+          ></a>
+        </li>
       </ul>
-
+    </div>
     <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
