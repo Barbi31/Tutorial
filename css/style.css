@@ -141,12 +141,21 @@
   margin-bottom: 0px;
   flex-wrap: wrap;
 }
-@media screen and (width >=768px) {
+@media screen and (768px =< width <1158px) {
   .hero-title {
     font-size: 28px;
     line-height: 34px;
     letter-spacing: -0.84px;
     padding-right: 180px;
+  }
+}
+@media screen and (width >= 1158px){
+  .hero-title{
+    padding-right:612px;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: -0.84px;
+    
   }
 }
 .hero-pharagraph {
@@ -422,6 +431,8 @@
     display: flex;
     gap: 24px;
     margin-left: 188px;
+    margin-right: 137px;
+    padding-left: 0px;
   }
   .hero-list-first {
     color: #111;
