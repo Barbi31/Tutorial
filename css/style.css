@@ -528,7 +528,7 @@
 .menu-container .menu-toggle {
   position: absolute;
   top: 20px;
-
+padding-left:50%;
   color: #ffffff;
 }
 .js-close-menu:hover,
